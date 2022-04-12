@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+.hst{
+  height: 400px !important;
+  box-shadow:  0 6px 10px 0 #FFC107;
+}
+.myimg{
+  width: 200px;
+  height: 200px;
+}
+.zm {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 200ms ease;
+}
+
+.zm:hover {
+  transform: scale(1.08);
+}
+.img_body {
+  cursor: pointer;
+  overflow: hidden;
+}
+.myhead{
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #FFC107;
+}
