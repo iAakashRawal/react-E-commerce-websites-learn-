@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Movie from './com/Movie';
+import Ecommerce from './com/Ecommerce';
 
 function App() {
   return (
-    <Movie />
+    <Ecommerce />
     
   );
 }

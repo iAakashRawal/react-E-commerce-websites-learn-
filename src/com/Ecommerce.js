@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import '../App.css'
-const UsingFetch = () => {
+const Ecommerce = () => {
   const [users, setUsers] = useState([])
 
   const fetchData = () => {
@@ -30,8 +30,8 @@ const UsingFetch = () => {
               <ul className="navbar-nav me-auto">
                 {
                    users.map((myelemh ) => (
-                    // console.log(myelemh.category)                   
-                      <a className="nav-link" href="">{myelemh.category}</a>                    
+                     console.log(myelemh.category)                   
+                      //<a className="nav-link" href="">{myelemh.category}</a>                    
                    ))
                 }            
               </ul>
@@ -76,4 +76,4 @@ const UsingFetch = () => {
   )
 }
 
-export default UsingFetch
+export default Ecommerce
